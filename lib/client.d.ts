@@ -32,7 +32,7 @@ export declare class Client extends EventEmitter {
     lastResponse?: any;
     lastResponseHeaders?: IncomingHttpHeaders;
     lastElapsedTime?: number;
-    private wsdl;
+    wsdl: WSDL;
     private httpClient;
     private soapHeaders;
     private httpHeaders;
