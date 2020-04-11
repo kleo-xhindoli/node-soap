@@ -55,8 +55,8 @@ export class Client extends EventEmitter {
   public lastResponse?: any;
   public lastResponseHeaders?: IncomingHttpHeaders;
   public lastElapsedTime?: number;
+  public wsdl: WSDL;
 
-  private wsdl: WSDL;
   private httpClient: HttpClient;
   private soapHeaders: any[];
   private httpHeaders: IHeaders;
